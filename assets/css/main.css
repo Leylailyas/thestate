@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+}
+header .borderdiv {
+  border-bottom: 2px solid #ABAAA8;
+}
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+  width: 85%;
+  margin-left: 210px;
+}
+header .container .estatenav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  width: 85%;
+  margin-top: 20px;
+}
+header .container .estatenav .collapsee ul {
+  gap: 30px;
+}
+header .container .estatenav img {
+  width: 80px;
+  height: auto;
+}
+header .container .estatenav .number {
+  background-color: #FD784F;
+  width: 220px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  padding-top: 8px;
+  margin-left: 70px;
+  padding-left: 28px;
+}
+header .container .estatenav .collapseDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 990px) {
+  .number {
+    display: none;
+  }
+}
+.featured {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.findyourhome {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.findyourhome {
+  background-image: url(/assets/img/home_slider_bcg.jpg);
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  position: relative;
+}
+
+.myform {
+  background-color: #07122C;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+}
+
+.testimonials {
+  background-image: url(/assets/img/testimonials_background.jpg);
+  height: 530px;
+  width: 100%;
+  background-size: cover;
+  margin-top: 30px;
+}
+
+.lorem {
+  width: 949px;
+  font-size: 19px;
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.CLIENTS {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.person {
+  border-radius: 50%;
+}
+
+.natalia {
+  margin-top: 30px;
+  color: #FD784F;
+  font-size: 20px;
+}
+
+.cloent {
+  color: white;
+}
+
+.cities {
+  font-size: 20px;
+}
+
+.featured {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.orange {
+  font-weight: lighter;
+}
+
+.city {
+  max-width: 100%;
+}
+
+.newyork {
+  margin-top: -40px;
+  border: none;
+  color: white;
+  background-color: #FD784F;
+  width: 115px;
+  height: 33px;
+}
+
+.newyorkdiv {
+  background-color: yellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grayimg {
+  background-image: url(/assets/img/world.png);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+
+.footersection {
+  background-color: #07122C;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 60px;
+}
+
+.copyright {
+  color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+#pagi {
+  border: 2px solid #FD784F;
+  background-color: transparent;
+  color: #FD784F;
+  width: 220px;
+  height: 60px;
+  border-radius: 20px;
+  margin-top: 30px;
+}
+
+.icon {
+  font-size: 19px;
+  color: #FD784F;
+}
+
+#productsList {
+  display: flex;
+  overflow: hidden;
+  flex-wrap: wrap;
+  max-width: 100%;
+  gap: 30px;
+}
+
+.apiimage {
+  max-width: 100%;
+  width: 300px;
+}
+
+.boxDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  border: 1px solid rgb(196, 192, 192);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+#pagi {
+  font-size: 12px;
+  border-radius: 10px;
+  border: 2px solid #bbb811;
+  color: #717FE0;
+}
+
+#pagi:hover {
+  background-color: #e2aa0d;
+  transition: 0.3s;
+  color: white;
+}
+
+@media screen and (max-width: 991px) {
+  .basketicon {
+    display: none;
+  }
+}
